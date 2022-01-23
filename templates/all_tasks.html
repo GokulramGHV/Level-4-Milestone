@@ -1,0 +1,9 @@
+<h1>Pending Tasks</h1>
+{% for task in pending %}
+{{forloop.counter}}. {{task}} <br>
+{% endfor %}
+
+<h1>Completed Tasks</h1>
+{% for task in completed %}
+{{forloop.counter}}. {{task}} <br>
+{% endfor %}
